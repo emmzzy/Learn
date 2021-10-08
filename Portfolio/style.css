@@ -1,0 +1,341 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/riverr.jpg);
+}
+
+h3 {
+    text-align: center;
+    font-size: xx-large;
+}
+nav {
+    display: flex;
+}
+header {
+    margin: 0;
+    padding: 0;
+}
+
+nav img {
+    width: 200px;
+    padding-left: 4em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1em;
+    padding-top: 1em;
+    margin-left: 1em;
+    font-family: Orbitron, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul li:hover {
+    background: red;
+    color: white;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    margin: 1em 0 1em 4em;
+    padding: .5em 1em;
+    margin-top: 1.5em 0 1.5em 0;
+    font-weight: bold; 
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+    padding-left: 5px;
+    margin-bottom: 0;
+    font-family: 'Monoton', cursive;
+}
+
+.intro-social {
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.intro-social img{
+    width: 50px;
+    padding: 0 2em 0 2em;
+    margin-bottom: 40px;
+}
+.introduction p {
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 0;
+    padding-top: 0;
+}
+.profile-pic {
+    width: 300px;
+    border: 10px solid gray;
+    margin-left: 12em;
+}
+
+.about-me {
+    margin-top: 50px;
+    padding-right: 240px;
+    padding-left: 240px;
+    height: 670px;
+}
+
+.about-main {
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-par {
+    text-align: center;
+    padding-left: 200px;
+    font-family: Sacramento, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.about-img  img{
+    width: 300px;
+}
+
+.work {
+    height: 660px;
+    padding-right: 240px; 
+    padding-left: 240px;
+}
+
+.contact {
+    height: 520px;
+    text-align: center;
+    padding-right: 240px; 
+    padding-left: 240px;
+}
+
+.container2 {
+    font-size: 30px;
+    
+}
+
+.my_logo {
+    width: 15em;
+    height: 10em;
+    padding: 1em;
+}
+.container a{
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(52, 61, 61, 0.514);
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social img {
+    width: 50px;
+    padding: 10px 2px 0 4px;
+}
+
+.reserve {
+    background: rgba(235, 79, 32, 0.541);
+    border-radius: 8%;
+}
+
+.work-menu img {
+    width: 500px;
+    border: orangered 1px solid;
+    margin-top: 100px;
+}
+
+.work-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.work-sub-menu1 {
+    padding-right: 10px;
+}
+
+.work-sub-menu2 {
+    padding-left: 10px;
+}
+
+button {
+    background: rgb(255, 72, 0);
+    width: 100px;
+    height: 50px;
+    color: white;
+}
+
+button:hover {
+    background: yellow;
+    cursor: pointer;
+    color: tomato;
+}
+
+@media only screen and (max-width : 200px) {
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: .1em;
+        padding-top: .1em;
+        margin-left: .1em;
+        font-family: Orbitron, Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .my_logo {
+        width: 3.5em;
+        height: 2.5em;
+        padding: .5em;
+        padding-left: .3;
+    }
+
+    a {
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        text-decoration: none;
+        list-style: none;
+        margin: .1em 0 .1em 0em;
+        font-size: .3em;
+        padding: .1em .1em;
+        margin-top: .1em 0 .1em 0;
+        font-weight: bold; 
+        align-items: center;
+    }
+
+    .nav {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        padding-top: 1.3em;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+        padding-left: 5px;
+        margin-bottom: 0;
+        font-family: 'Monoton', cursive;
+        font-size: .5em;
+    }
+    
+    .intro-social img{
+        width: 50px;
+        padding: 0 2em 0 2em;
+        margin-bottom: 40px;
+    }
+    .introduction p {
+        font-size: 10px;
+        font-weight: bolder;
+        margin-top: 0;
+        padding-left: .3em;
+        padding-top: 0;
+    }
+    .profile-pic {
+        width: 70px;
+        border: 10px solid gray;
+        margin-left: 0em;
+    }
+
+    .intro-social img{
+        width: 15px;
+        padding: 0 .5em 0 .5em;
+        margin-bottom: 20px;
+    }
+
+    .about-me {
+        padding-right: 50px;
+        padding-left: 50px;
+        height: 270px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    #About_Me {
+        margin-top: 0;
+        padding-top: 0;
+        font-size: small;
+    }
+    
+    .about-img img{
+        width: 80px;
+        padding-top: 50px;
+    }
+
+    .about-par {
+        text-align: center;
+        padding-left: 5px;
+        font-family: Sacramento, Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 8px;
+        font-weight: bolder;
+    }
+    
+    .work {
+        margin: 0;
+        padding: 0;
+        height: 350px;
+    }
+    
+    #Work {
+        margin-top: 0;
+        padding-top: 0;
+        font-size: small;
+    }
+
+    .work-menu img {
+        width: 150px;
+        border: orangered 1px solid;
+        margin-top: 20px;
+    }
+    
+    .work-menu {
+        display: block;
+        justify-content: center;
+    }
+
+    .work-sub-menu1 {
+        padding-left: 10px;
+    }
+    .work-sub-menu2 {
+        padding-left: 10px;
+    }
+
+    .contact {
+        padding-right: 20px; 
+        padding-left: 10px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    #Contact {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: small;
+    }
+
+    .container2 p {
+        font-size: small;
+        padding-left: 1px;
+    }
+
+    .email {
+        font-size: 2px;
+    }
+}
